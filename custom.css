@@ -1,0 +1,136 @@
+/* Main styles */
+.odoo-color-pink{
+background-color: #8F547C;
+}
+.odoo-color-green{
+background-color: #00A4A0;
+}
+.text-odoo-green{
+color: #00A4A0;
+}
+.text-odoo-gray{
+color: #666;
+}
+.bg-light-gray{
+background-color: #EBEBEB;
+}
+a{
+	cursor: pointer;
+}
+/* Navbar related */
+
+.navbar-odoo{
+	height: 60px;
+	border-bottom: 1px solid #6E4160 !important;
+	background-color: #8F547C;
+}
+
+/* Badge on icon */
+
+.badge-dot:empty {
+    display: inline-block;
+}
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+.badge-dot {
+    position: absolute;
+    border-radius: 4.5px;
+    height: 9px;
+    min-width: 0;
+    padding: 0;
+    width: 9px;
+    margin-left: -.3125rem;
+}
+.badge-notification {
+    position: absolute;
+    font-size: .6rem;
+    margin-top: -.1rem;
+    margin-left: -.5rem;
+    padding: .2em .45em;
+}
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+
+/* End of Badge on icon */
+/* Secondary top bar styles */
+.secondary-top-bar{
+	min-height: 114px;
+	background-color: #fff;
+	border-bottom: 2px solid #CCCCCC;
+}
+/* Form */
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+  border-color: #8f8f8f;
+}
+
+.form-control::placeholder {
+  font-size: 16px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.search-bar{
+	position: relative;
+}
+
+input[type="text"] {
+    padding-left: 80px;
+}
+
+.label-danger {
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    z-index: 4;
+    border: 1px solid #8f8f8f;
+    background-color: #F8F9FA;
+    color: #8f8f8f;
+}
+.label-danger a{
+	color: #ddd;
+	margin: 0px 4px 0px 4px;
+}
+.bars-icon{
+	color: #fff;
+	padding: 4px;
+}
+.input-group-append .btn{
+	position: absolute;
+	right: 0px;
+	color: #8f8f8f;
+	z-index: 4;
+}
+.square-button{
+	border-radius: 0;
+}
+
+.list-filter a:hover{
+ color: #00A4A0;
+ text-decoration: none;
+}
+.icon-active{
+	background-color: #EBEBEB;
+	width: 40px;
+	text-align: center;
+}
+.list-item-online{
+	min-height: 40px
+}
