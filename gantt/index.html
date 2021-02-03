@@ -1,112 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>aaa</title>
-	<link rel="stylesheet" type="text/css" href="gantt.css"/>  
+    <title>aaa</title>
+    <link rel="stylesheet" type="text/css" href="gantt.css"/>
 </head>
 <body>
 
 </body>
 </html>
 <div class="wrapper">
-	<div class="header">
-		<h2>Gantt Chart Concept with CSS-Grid</h2>
-		<p>Use <strong>grid-column</strong> to span a new entry across the grid. (e. g. <strong>grid-column: 5/12;</strong> spans an entry from May to November)	</p>
-	</div>
-	<div class="gantt__row gantt__row--months">
-			<div class="gantt__row-first">
-				February
-			</div>
-				
-			<ul>
-				<li style="grid-column: 12/28;">February</li>
-			</ul>
-		</div>
-	<div class="gantt">	
-		<div class="gantt__row gantt__row--months">
-			<div class="gantt__row-first"></div>
-			<span>01</span><span>02</span><span>03</span>
-			<span>04</span><span>05</span><span>06</span>
-			<span>07</span><span>08</span><span>09</span>
-			<span>10</span><span>11</span><span>12</span>
-			<span>13</span><span>14</span><span>15</span>
-			<span>16</span><span>17</span><span>18</span>
-			<span>19</span><span>20</span><span>21</span>
-			<span>22</span><span>23</span><span>24</span>
-			<span>25</span><span>26</span><span>27</span>
-			<span>28</span>
-		</div>
-		<div class="gantt__row gantt__row--lines" data-month="5">
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span class="marker"></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span><span></span><span></span>
-			<span></span>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Barnard Posselt
-			</div>
-			<ul class="gantt__row-bars">
-				<li style="grid-column: 4/11; background-color: #2ecaac;">Even longer project</li>
-			</ul>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Ryley Teste
-			</div>
-			<ul class="gantt__row-bars"></ul>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Lanie Erwin
-			</div>
-			<ul class="gantt__row-bars">
-				<li style="grid-column: 2/5; background-color: #2ecaac;">Start Februar 🙌</li>
-				<li style="grid-column: 1/6; background-color: #ff6252;" class="stripes"></li>
-				<li style="grid-column: 7/11; background-color: #54c6f9;">Same line</li>
-			</ul>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Krishnah Pauleit
-			</div>
-			<ul class="gantt__row-bars"></ul>
-		</div>
-		<div class="gantt__row ">
-			<div class="gantt__row-first">
-				Hobard Lampitt
-			</div>
-			<ul class="gantt__row-bars"></ul>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Virgilio Jeanes
-			</div>
-			<ul class="gantt__row-bars">
-				<li style="grid-column: 2/5; background-color: #2ecaac;"></li>
-			</ul>
-		</div>
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Ky Verick
-			</div>
-			<ul class="gantt__row-bars">
-				<li style="grid-column: 3/8; background-color: #54c6f9;">Long project</li>
-			</ul>
-		</div>
+    <div class="header">
+        <h2>Gantt Chart Concept with CSS-Grid</h2>
+        <p>Use <strong>grid-column</strong> to span a new entry across the grid. (e. g. <strong>grid-column: 5/12;</strong> spans an entry from May to November)	</p>
+    </div>
+    <div class="gantt__row gantt__row--months">
+            <div class="gantt__row-first">
+                February
+            </div>
 
-		<div class="gantt__row">
-			<div class="gantt__row-first">
-				Ketti Waterworth
-			</div>
-			<ul class="gantt__row-bars">
-				<li style="grid-column: 4/9; background-color: #ff6252;" class="stripes">A title</li>
-			</ul>
-		</div>
-	</div>
+            <ul>
+                <li style="grid-column: 12/28;">February</li>
+            </ul>
+        </div>
+    <div class="gantt">
+        <div class="gantt__row gantt__row--months">
+            <div class="gantt__row-first"></div>
+            <span>01</span><span>02</span><span>03</span>
+            <span>04</span><span>05</span><span>06</span>
+            <span>07</span><span>08</span><span>09</span>
+            <span>10</span><span>11</span><span>12</span>
+            <span>13</span><span>14</span><span>15</span>
+            <span>16</span><span>17</span><span>18</span>
+            <span>19</span><span>20</span><span>21</span>
+            <span>22</span><span>23</span><span>24</span>
+            <span>25</span><span>26</span><span>27</span>
+            <span>28</span>
+        </div>
+        <div class="gantt__row gantt__row--lines" data-month="5">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span class="marker"></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span>
+        </div>
+        <div class="gantt__row" style="border-bottom: 1px solid rgba(221, 221, 221, 0.8);">
+            <div class="gantt__row-first">
+                Barnard Posselt
+            </div>
+            <div class="gantt__row-bars">
+                <div class="nested" style="grid-column: 2;">
+                <span style="grid-column:2; background-color: #E7E7E7; ">1</span>
+                </div>
+                <span style="grid-column: 3; background-color: #D9D9D9;">2</span>
+                <div class="nested" style="grid-column: 4;">
+                    <span style="grid-column:1; background-color: #E7E7E7; ">1</span>
+                </div>
+                <span style="grid-column: 5/7; background-color: #E7E7E7;">1</span>
+                <div class="nested" style="grid-column: 10;">
+                    <span style="grid-column:1; background-color: #E7E7E7; ">1</span>
+                    <span style="grid-column:2; background-color: #D9D9D9; ">2</span>
+                </div>
+                <div class="nested" style="grid-column: 11;">
+                    <span style="grid-column:1; background-color: #CBCBCB; ">3</span>
+                    <span style="grid-column:2; background-color: #BEBEBE; "></span>
+                </div>
+                <span style="grid-column: 12; background-color: #BEBEBE;">4</span>
+                <div class="nested" style="grid-column: 13;">
+                    <span style="grid-column:1; background-color: #CBCBCB; ">3</span>
+                    <span style="grid-column:2; background-color: #D9D9D9; ">2</span>
+                </div>
+                <div class="nested" style="grid-column: 14;">
+                    <span style="grid-column:1; background-color: #CBCBCB; ">3</span>
+                    <span style="grid-column:2; background-color: #D9D9D9; ">4</span>
+                </div>
+                <div class="nested" style="grid-column: 15;">
+                    <span style="grid-column:1; background-color: #5f54f9; ">1</span>
+                    <span style="grid-column:2; background-color: #e4941c; ">2</span>
+                </div>
+                <span style="grid-column: 16/21; background-color: #ff6252;">1</span>
+                <div class="nested" style="grid-column: 21;">
+                    <span style="grid-column:1; background-color: #ff6252; "></span>
+                    <span style="grid-column:2; background-color: #e4941c; "></span>
+                </div>
+                <span style="grid-column:22; background-color: #e4941c; ">2</span>
+                <span style="grid-column:23; background-color: #9b1ce4; ">1</span>
+                <div class="nested-3fr" style="grid-column: 24;">
+                    <span style="grid-column:1; background-color: #9b1ce4; "></span>
+                    <span style="grid-column:3; background-color: #e4941c; ">1</span>
+                </div>
+                <div class="nested-3fr" style="grid-column: 25;">
+                    <span style="grid-column:1; background-color: #9b1ce4; "></span>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+        <div class="gantt__row">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars">
+                <li style="grid-column: 2/5; background-color: #2ecaac;">Start Februar 🙌</li>
+                <li style="grid-column: 1/6; background-color: #ff6252;" class="stripes"></li>
+                <li style="grid-column: 7/11; background-color: #54c6f9;">Same line</li>
+            </ul>
+        </div>
+        <div class="gantt__row">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars"></ul>
+        </div>
+        <div class="gantt__row ">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars"></ul>
+        </div>
+        <div class="gantt__row">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars">
+                <li style="grid-column: 2/5; background-color: #2ecaac;"></li>
+            </ul>
+        </div>
+        <div class="gantt__row">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars">
+                <li style="grid-column: 3/8; background-color: #54c6f9;">Long project</li>
+            </ul>
+        </div>
+
+        <div class="gantt__row">
+            <div class="gantt__row-first">
+
+            </div>
+            <ul class="gantt__row-bars">
+                <li style="grid-column: 4/9; background-color: #ff6252;" class="stripes">A title</li>
+            </ul>
+        </div>
+    </div>
