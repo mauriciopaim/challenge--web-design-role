@@ -9,22 +9,20 @@
 </body>
 </html>
 <div class="wrapper">
-    <div class="header">
-        <h2>Gantt Chart Concept with CSS-Grid</h2>
-        <p>Use <strong>grid-column</strong> to span a new entry across the grid. (e. g. <strong>grid-column: 5/12;</strong> spans an entry from May to November)	</p>
-    </div>
+    <h1>Gantt</h1>
     <div class="gantt__row gantt__row--months">
             <div class="gantt__row-first">
-                February
+                
             </div>
 
-            <ul>
-                <li style="grid-column: 12/28;">February</li>
-            </ul>
+            
+                <span style="grid-column: 12/18; text-align: center;">February</span>
         </div>
     <div class="gantt">
         <div class="gantt__row gantt__row--months">
-            <div class="gantt__row-first"></div>
+            <div class="gantt__row-first">
+                Default gantt view for x_trez
+            </div>
             <span>01</span><span>02</span><span>03</span>
             <span>04</span><span>05</span><span>06</span>
             <span>07</span><span>08</span><span>09</span>
@@ -52,7 +50,7 @@
             <div class="gantt__row-first">
                 Barnard Posselt
             </div>
-            <div class="gantt__row-bars">
+            <div class="gantt__row-bars style-text">
                 <div class="nested" style="grid-column: 2;">
                 <span style="grid-column:2; background-color: #E7E7E7; ">1</span>
                 </div>
@@ -79,22 +77,22 @@
                     <span style="grid-column:2; background-color: #D9D9D9; ">4</span>
                 </div>
                 <div class="nested" style="grid-column: 15;">
-                    <span style="grid-column:1; background-color: #5f54f9; ">1</span>
-                    <span style="grid-column:2; background-color: #e4941c; ">2</span>
+                    <span style="grid-column:1; background-color: #BEBEBE; ">5</span>
+                    <span style="grid-column:2; background-color: #CBCBCB; ">4</span>
                 </div>
-                <span style="grid-column: 16/21; background-color: #ff6252;">1</span>
+                <span style="grid-column: 16/21; background-color: #CBCBCB;">3</span>
                 <div class="nested" style="grid-column: 21;">
-                    <span style="grid-column:1; background-color: #ff6252; "></span>
-                    <span style="grid-column:2; background-color: #e4941c; "></span>
+                    <span style="grid-column:1; background-color: #CBCBCB; "></span>
+                    <span style="grid-column:2; background-color: #CBCBCB; "></span>
                 </div>
-                <span style="grid-column:22; background-color: #e4941c; ">2</span>
-                <span style="grid-column:23; background-color: #9b1ce4; ">1</span>
+                <span style="grid-column:22; background-color: #CBCBCB; ">2</span>
+                <span style="grid-column:23; background-color: #E7E7E7; ">1</span>
                 <div class="nested-3fr" style="grid-column: 24;">
-                    <span style="grid-column:1; background-color: #9b1ce4; "></span>
-                    <span style="grid-column:3; background-color: #e4941c; ">1</span>
+                    <span style="grid-column:1; background-color: #E7E7E7; "></span>
+                    <span style="grid-column:3; background-color: #E7E7E7; ">1</span>
                 </div>
                 <div class="nested-3fr" style="grid-column: 25;">
-                    <span style="grid-column:1; background-color: #9b1ce4; "></span>
+                    <span style="grid-column:1; background-color: #E7E7E7; ">1</span>
                 </div>
             </div>
             

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700");
  body, html {
      font-family: "Roboto", sans-serif;
-     background-color: #cddade;
+     background-color: #F9F9F9;
      height: 100%;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
@@ -29,7 +29,6 @@
      position: relative;
      overflow: hidden;
      box-sizing: border-box;
-     box-shadow: 0 75px 125px -57px #7e8f94;
 }
  .gantt__row {
      display: grid;
@@ -67,7 +66,7 @@
      border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
  .gantt__row--lines span.marker {
-     background-color: rgba(10, 52, 68, 0.13);
+     background-color: rgba(251, 255, 37, 0.205);
      z-index: 2;
 }
  .gantt__row--lines:after {
@@ -78,14 +77,14 @@
      height: 100%;
 }
  .gantt__row--months {
-     color: #fff;
-     background-color: #0a3444 !important;
-     border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+     color: #666666;
+     background-color: #F2F4F6 !important;
+     border-bottom: 1px solid #DFE5E9;
      grid-template-columns: 250px repeat(28, 1fr);
 }
  .gantt__row--months .gantt__row-first {
      border-top: 0 !important;
-     background-color: #0a3444 !important;
+     background-color: #F2F4F6 !important;
 }
  .gantt__row--months span {
      text-align: center;
@@ -101,6 +100,10 @@
      font-weight: bold;
      text-align: center;
 }
+.gantt__row-first p{
+    position: absolute;
+    left:50px;
+}
  .gantt__row-bars {
      list-style: inline;
      display: grid;
@@ -110,15 +113,37 @@
      grid-gap: 8px 0;
      border-top: 0px solid rgba(221, 221, 221, 0.8);
 }
+.gantt__row-bars span{
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
 .nested{
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(2, 1fr);
 }
+.nested span{
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
 .nested-3fr{
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(3, 1fr);
+}
+.nested-3fr span{
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.style-text{
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 5;
 }
  .gantt__row-bars li {
      font-weight: 500;
