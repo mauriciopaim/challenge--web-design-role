@@ -5,13 +5,15 @@ This is the exercise made for a web designer role.(What a challenge by the way.)
 Since I din't code for a long time and have been working mostly as UX designer, it was a great exercise.
 The code presented here, is probably not great, but it was a great learning experience.
 
-Bootstrap for general page look and feel
-Grid Column for Gantt Chart
+Short Description
+- Bootstrap for general page look and feel
+- Grid Column for Gantt Chart
 
-Html 5
-Bootstrap 4
-Basic CSS
-Basic Javascript
+Technologies
+- Html 5
+- Bootstrap 4
+- Basic CSS
+- Basic Javascript
 
 Specifically speaking about the Gantt chart which was the most dificult part:
 - Grid column is great for this since it has the power to align things both horizontally and vertically
