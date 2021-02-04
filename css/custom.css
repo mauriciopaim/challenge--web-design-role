@@ -134,3 +134,12 @@ input[type="text"] {
 .list-item-online{
 	min-height: 40px
 }
+
+
+.bs-example{
+    margin: 200px 150px 0;
+}
+.popover-title .close{
+    position: relative;
+    bottom: 3px;
+}
