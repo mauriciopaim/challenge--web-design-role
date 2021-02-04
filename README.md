@@ -2,7 +2,7 @@
 
 This is the exercise made for a web designer role.(What a challenge by the way.)
 
-Since I din't code for a long time and have been working mostly as UX designer, it was a great exercise.
+Since I din't code for a long time and have been working mostly as UI designer(little code involved), it was a great exercise.
 The code presented here, is probably not great, but it was a great learning experience.
 
 Short Description
