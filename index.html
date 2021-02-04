@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<link rel="stylesheet" type="text/css" href="gantt/gantt.css"/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	
@@ -171,7 +171,7 @@
 			</div>
 			<div class="gantt__row" style="border-bottom: 1px solid rgba(221, 221, 221, 0.8);">
 				<div class="gantt__row-first">
-					<p data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" ><i class="fa fa-minus-square-o" aria-hidden="true"></i>  Primary</p>
+					<p data-toggle="collapse" href="#collapseGantt" role="button" aria-expanded="false" aria-controls="collapseGantt" ><i class="fa fa-minus-square-o" aria-hidden="true"></i>  Primary</p>
 				</div>
 				<div class="gantt__row-bars style-text">
 					<div class="nested" style="grid-column: 2;">
@@ -221,54 +221,55 @@
 				
 			</div>
 			<div>
-				
-			<div class="gantt__row" class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+			<div  class="collapse show" id="collapseGantt">
+				<div class="gantt__row">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars">
+						<li style="grid-column: 2/5; background-color: #2ecaac;">Start Februar 🙌</li>
+						<li style="grid-column: 1/6; background-color: #ff6252;" class="stripes"></li>
+						<li style="grid-column: 7/11; background-color: #54c6f9;">Same line</li>
+					</ul>
 				</div>
-				<ul class="gantt__row-bars">
-					<li style="grid-column: 2/5; background-color: #2ecaac;">Start Februar 🙌</li>
-					<li style="grid-column: 1/6; background-color: #ff6252;" class="stripes"></li>
-					<li style="grid-column: 7/11; background-color: #54c6f9;">Same line</li>
-				</ul>
-			</div>
-			<div class="gantt__row" class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+				<div class="gantt__row">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars"></ul>
 				</div>
-				<ul class="gantt__row-bars"></ul>
-			</div>
-			<div class="gantt__row " class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+				<div class="gantt__row ">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars"></ul>
 				</div>
-				<ul class="gantt__row-bars"></ul>
-			</div>
-			<div class="gantt__row" class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+				<div class="gantt__row">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars">
+						<li style="grid-column: 2/5; background-color: #2ecaac;"></li>
+					</ul>
 				</div>
-				<ul class="gantt__row-bars">
-					<li style="grid-column: 2/5; background-color: #2ecaac;"></li>
-				</ul>
-			</div>
-			<div class="gantt__row" class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+				<div class="gantt__row">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars">
+						<li style="grid-column: 3/8; background-color: #54c6f9;">Long project</li>
+					</ul>
 				</div>
-				<ul class="gantt__row-bars">
-					<li style="grid-column: 3/8; background-color: #54c6f9;">Long project</li>
-				</ul>
-			</div>
-	
-			<div class="gantt__row" class="collapse" id="collapseExample">
-				<div class="gantt__row-first">
-	
+		
+				<div class="gantt__row">
+					<div class="gantt__row-first">
+		
+					</div>
+					<ul class="gantt__row-bars">
+						<li style="grid-column: 4/9; background-color: #ff6252;" class="stripes">A title</li>
+					</ul>
 				</div>
-				<ul class="gantt__row-bars">
-					<li style="grid-column: 4/9; background-color: #ff6252;" class="stripes">A title</li>
-				</ul>
-			</div>
+			</div> <!-- Closing of collapse div-->
 		</div>
   </body>
 </html>
